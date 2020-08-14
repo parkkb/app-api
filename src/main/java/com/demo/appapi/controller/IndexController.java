@@ -21,7 +21,6 @@ public class IndexController {
     @RequestMapping(value = "/regist", method = RequestMethod.POST)
     public ResponseEntity hello(String inputStr) {
 
-
         return new ResponseEntity<>("HELLO", HttpStatus.OK);
     }
 }
